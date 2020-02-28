@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <title>Lista pokemonów</title>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="dist/main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+  </head>
+  <body>
+    <header class="full-text">
+      Pokémon - nazwa serii gier konsolowych firmy Nintendo, tworzonych od 1996
+      przez Satoshiego Tajiri.
+    </header>
+    <header class="short-text">
+      Pokémon
+    </header>
+    <section class="hide-if-short">
+      <h5>
+        Każdy pokémon posiada typ, który określa moce i możliwości, jakie
+        posiada, określając w ten sposób jego dalszy rozwój i ewolucję. Istnieją
+        pokémony posiadające dwa typy. W sumie istnieje osiemnaście typów:
+      </h5>
+      <ul>
+        <li>baśniowe (fairy) </li>
+        <li>duchowe (ghost), </li>
+        <li>elektryczne (electric), </li>
+        <li>kamienne (rock), </li>
+        <li>latające (flying), </li>
+        <li>lodowe (ice), </li>
+        <li>mroczne (dark), </li>
+        <li>normalne (normal), </li>
+        <li>ogniste (fire), </li>
+        <li>psychiczne (psychic), </li>
+        <li>robacze (bug), </li>
+        <li>smocze (dragon), </li>
+        <li>stalowe (steel), </li>
+        <li>trawiaste (grass), </li>
+        <li>trujące (poison), </li>
+        <li>walczące (fighting), </li>
+        <li>wodne (water),</li>
+        <li>ziemne (ground).</li>
+      </ul>
+    </section>
+
+    <section>
+      <table border="1" id="pokemon-table">
+        <tr>
+          <th onClick="sortBy(0)">Nazwa</th>
+          <th onClick="sortBy(1)">Wzrost</th>
+          <th onClick="sortBy(2)">Waga</th>
+          <th onClick="sortBy(3)">Groźny</th>
+        </tr>
+        <tr class="pokemon-record-proto">
+          <td><a class="pokemon-name" href="pokemon.html">RECORD_PROTO</a></td>
+          <td class="pokemon-height">0</td>
+          <td class="pokemon-weight">0</td>
+          <td class="pokemon-dangerous">nie</td>
+        </tr>
+      </table>
+    </section>
+
+    <footer class="full-text">
+      Pokémon – japoński serial anime tworzony od 1997 roku. W Japonii odcinki
+      dzielą się na sześć serii: Pokémon, Pokémon: Advanced Generation, Pokémon:
+      Diamond &amp; Pearl, Pokémon: Best Wishes!, Pokémon: XY i Pokémon Sun
+      &amp; Moon, jednak wszędzie poza nią stosowany jest podział na 21 sezonów.
+    </footer>
+    <footer class="short-text">
+      Pokémon
+    </footer>
+  </body>
+</html>

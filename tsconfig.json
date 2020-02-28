@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "outDir": "./dist/",
+        "allowJs": true,
+        "noImplicitAny": false,
+        "moduleResolution": "node",
+        "module": "esnext",
+        "target": "es2017"
+    },
+    "include": [ "./src/*" ]
+}

@@ -1,0 +1,16 @@
+.short-text { display: none; }
+
+@media (max-width: 720px) {
+    .short-text { display: inline-block; }
+    .full-text { display: none; }
+}
+
+.hide-if-short { display: inline-block }
+
+@media (max-width: 720px) {
+    .hide-if-short { display: none; }
+}
+
+#pokemon-table th {
+    color: blue
+}
